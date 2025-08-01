@@ -59,9 +59,9 @@ class cats(animals):
 d= dogs()
 print(d.sounds())             
 
-from abc import ABC 
+from abc import ABC , abstractmethod
 class  instruments(ABC):
-
+   @abstractmethod
    def play_sound(self):
       pass
 
