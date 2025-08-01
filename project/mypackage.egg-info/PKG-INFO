@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: mypackage
+Version: 0.1
+Summary: A simple example package with math and string utilities
+Author: Your Name
+Author-email: your.email@example.com
+Dynamic: author
+Dynamic: author-email
+Dynamic: summary
