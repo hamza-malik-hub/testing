@@ -41,3 +41,20 @@ color3 = colors("blue")
 
 print(color1==color2)
 print(color1==color3)
+
+
+from abc import ABC
+class animals(ABC):
+   def sounds(self):
+      pass
+
+class dogs(animals):
+   def sounds(self):
+      return "bark" 
+
+class cats(animals):
+   def sounds(self):
+      return "meow"
+
+d= dogs()
+print(d.sounds())              
