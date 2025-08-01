@@ -57,4 +57,23 @@ class cats(animals):
       return "meow"
 
 d= dogs()
-print(d.sounds())              
+print(d.sounds())             
+
+from abc import ABC 
+class  instruments(ABC):
+
+   def play_sound(self):
+      pass
+
+class drum(instruments):
+   def play_sound(self):
+      return "BOOM BOOM"
+   
+class guitar(instruments):
+   def play_sound(self):
+      return "tring tring"
+   
+d = drum()
+g = guitar()
+for instrument in [ g , d]:
+   print(instrument.play_sound())
