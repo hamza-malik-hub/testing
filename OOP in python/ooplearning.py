@@ -51,7 +51,7 @@ class person:
         self.age = age
         self.id = id
     def details(self):
-        print(f"Name:{self.name} Age:{self.age} ID:{self.id}")
+        print(f"Name:{self.name} ,Age:{self.age} ,ID:{self.id}")
     def intro(self):
         print("i am a person")
 
